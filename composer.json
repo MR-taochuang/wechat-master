@@ -1,0 +1,28 @@
+{
+  "type": "library",
+  "name": "mr.taochuang/wechat-master",
+  "homepage": "https://github.com/1826598123/mr.taochuang-wechat-master.git",
+  "description": "PHP WeChat WeApi WePay develop",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mr.taochuang",
+      "email": "mr_taochuang@163.com"
+    }
+  ],
+  "keywords": [
+    "WeChat","WeApi","WePay"
+  ],
+  "require": {
+    "php": ">=5.6",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-openssl": "*"
+  },
+    "psr-4": {
+      "WeChat\\": "WeChat",
+      "Driver\\":"Driver",
+      "WeApi\\":"WeApi"
+    }
+  }
+}
